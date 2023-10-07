@@ -1,0 +1,114 @@
+.service {
+    padding: 80px 0;
+}
+
+.title h2{
+    font-size: 72px;
+    width: 100% ;
+    text-align: center;
+    color: var(--color-primary);
+}
+.box{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    min-height: 400px;
+    margin: 40px 10px;
+    gap: 4rem;
+}
+.card{
+    height: 500px ;
+    width: 400px;
+    padding: 20px 35px;
+    background-color: var(--color-light);
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.3s ease 0s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card:hover{
+    transform: translateY(-15px);
+}
+.pra {
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.box button {
+    background-color: var(--color-bg);
+    border: none;
+    color: white;
+    padding: 5px 7px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 13px ;
+    cursor: pointer;
+    border-radius: 10%;
+}
+
+h4{
+    color: var(--color-bg);
+    font-size: 46px;
+    margin-top:0 px;
+}
+p {
+    font-size: 20px;
+}
+@media only screen and (max-width: 900px) {
+.service {
+    padding: 50px 0;
+}
+
+.flip-card {
+    width: 100%;
+}
+.title h2{
+    color: var(--color-primary);
+    font-size: 56px;
+    width: 100% ;
+    text-align: center;
+}
+.box{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    height: auto;
+    margin: 40px 10px;
+    gap: 4rem;
+}
+.card{
+    height: auto ;
+    width: 400px;
+    padding: 20px 35px;
+    background:var(--color-light) ;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.3s ease 0s;
+}
+h4{
+    color: var(--color-bg);
+    font-size: 30px;
+    margin-top:0 px;
+}
+p{
+    font-size: 18px;
+}
+.box button {
+    width: 80px;
+    font-size: 12px;
+}
+}
